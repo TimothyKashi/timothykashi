@@ -7,16 +7,26 @@ body {
 
 .content-box {
   background-color: lightgrey;
-  border-left: 5px solid pink;
+  border-left: 5px solid #502E82;
   border-radius: 10px;
-  box-shadow: 2px 3px grey;
+  box-shadow: 2px 3px 5px grey;
 }
 
 .big-name {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 22px;
 }
 
-.bullet-points {
+.inner-content {
   padding-left: 20px;
+  padding-bottom: 5px;
+  margin-bottom: 35px;
+}
+
+.fa {
+  color: black;
+}
+
+.links {
+  text-align: center;
 }
