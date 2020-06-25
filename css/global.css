@@ -1,36 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico:200,100,400');
-@import url('https://fonts.googleapis.com/css?family=Fredoka+One:200,100,400');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:200,100,400');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker:200,100,400');
+
 
 body {
-  background-color: #F7F7F7;
+  background-color: #D4EDF7;
   margin: 0px;
 }
 
 hr {
   margin-top: 50px;
+  border: 1px solid black;
 }
 
 #front_page {
   width: 100%;
   height: 100vh;
-  overflow: hidden;
-  background: #141414;
-  color: white;
+  background: #347B98;
   margin: 0;
   padding: 0;
-  text-align: center;
-  /* background-image: url("https://www.techadvisor.co.uk/cmsdata/slideshow/3788397/Computer_code_thumb800.jpg"); */
-}
-
-#front_page p {
-  font-size: 50px;
-  font-family: Fredoka One;
+  color: #F7F7F7;
 }
 
 .about-text {
   font-size: 30px;
-  font-family: Fredoka One;
+  font-family: Ubuntu;
   margin: 30px;
+  color: #110934;
 }
 
 .main-content {
@@ -41,9 +37,10 @@ hr {
 }
 
 .section-title {
-  font-family: Pacifico;
+  font-family: Permanent Marker;
   font-size: 45px;
   text-align: center;
+  /* color: #3095B4; */
   color: #110934;
 }
 
@@ -66,7 +63,11 @@ hr {
 }
 
 .fa {
-  color: black;
+  color: #502E82;
+}
+
+.fa:hover {
+  color: #BB8AE2;
 }
 
 .links {
