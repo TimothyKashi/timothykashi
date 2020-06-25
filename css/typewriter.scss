@@ -6,17 +6,18 @@
 }
 
 #typewriter{
-        font-size: 2em;
-        margin: 0;
-        font-family: "Courier New";
+    font-size: 2em;
+    margin: 0;
+    font-family: "Courier New";
 
-        &:after{
-            content: "|";
-            animation: blink 500ms linear infinite alternate;
-        }
-        // padding-top: 200px;
-        margin-left: 10%;
-        font-weight: bold;
+    &:after{
+      content: "|";
+      animation: blink 500ms linear infinite alternate;
+    }
+    font-weight: bold;
+    text-align: left;
+    display: inline-block;
+
 }
 
 @-webkit-keyframes blink{

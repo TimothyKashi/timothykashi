@@ -10,8 +10,9 @@
   font-size: 2em;
   margin: 0;
   font-family: "Courier New";
-  margin-left: 10%;
   font-weight: bold;
+  text-align: left;
+  display: inline-block;
 }
 #typewriter:after {
   content: "|";
