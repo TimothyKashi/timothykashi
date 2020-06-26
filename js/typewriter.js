@@ -96,4 +96,4 @@ typewriter = setupTypewriter(typer);
 
 typewriter.type();
 
-setTimeout(placeArrow, 9600);
+setTimeout(placeArrow, 9800);
