@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:200,100,400');
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker:200,100,400');
 
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background-color: #D4EDF7;
@@ -14,7 +17,11 @@ body {
 }
 
 .spacer {
-  height: 30vh;
+  height: 20vh;
+}
+
+.bottom-spacer {
+  height: 15vh;
 }
 
 #front_page {
@@ -28,8 +35,16 @@ body {
   text-align: center;
 }
 
+.arrow {
+  font-size: 50px;
+  position: absolute;
+  bottom: 20px;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
 .about-text {
-  font-size: 30px;
+  font-size: 29px;
   font-family: Ubuntu;
   margin: 30px;
   color: #110934;
@@ -80,6 +95,10 @@ body {
 
 .fa:hover {
   color: #3CB3DE;
+}
+
+.fa-chevron-down:hover {
+  color: #F7F7F7;
 }
 
 .links {
